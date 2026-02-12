@@ -1,0 +1,66 @@
+/*prompt1:make the header display the title in the center*/
+header {
+    text-align: center;
+}
+
+
+/*prompt2:make the characters-container display the characters in a grid*/
+.characters-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+/*prompt3:make the character-card display the image and name and status and species in a card*/
+.character-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+/*prompt4:make the image in the character-card display in the center*/
+.character-card img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+/*prompt5:make the pagination display the buttons in the center*/
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+/*make the button next as long as the button prev and make them boarder radius*/
+#next {
+    width: 100px;
+    border-radius: 10px;
+}
+#prev {
+    width: 100px;
+    border-radius: 10px;
+}
+/*make the buttons change background color when hovered*/
+#next:hover {
+    background-color: #4CAF50;
+    cursor:pointer;
+}
+
+#prev:hover {
+    background-color: #4CAF50;
+    cursor: pointer;
+}
+/*make the buttons change background color when clicked*/
+#next:active {
+    background-color: #4CAF50;
+}
+#prev:active {
+    background-color: #4CAF50;
+}
+/*make the character card change background color and size when hovered*/
+
+.character-card:hover {
+    background-color: #4CAF50;
+    cursor:pointer;
+}
