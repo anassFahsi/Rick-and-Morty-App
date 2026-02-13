@@ -10,6 +10,25 @@
     <header>
          <h1>Rick and Morty characters
          </h1>
+<!--prompt 3:create a filter for the characters by status species and name-->
+         <div id="filters">
+    <label for="status">Status:</label>
+    <select id="status">
+      <option value="">All</option>
+      <option value="alive">Alive</option>
+      <option value="dead">Dead</option>
+      <option value="unknown">Unknown</option>
+    </select>
+
+    <label for="species">Species:</label>
+    <input type="text" id="species" placeholder="t.ex. Human">
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" placeholder="t.ex. Rick">
+
+    <button id="applyFilter">Filter/Search</button>
+  </div>
+
     </header>
     <!--prompt1 create a container for the characters-->
     
