@@ -16,15 +16,18 @@ async function getCharacterDetails(id) {
 function displayCharacterDetails(character) {
     const characterDetailsContainer = document.querySelector("#character-Details");
     characterDetailsContainer.innerHTML = `
-        <h2>${character.name}</h2>
-        <img src="${character.image}" alt="${character.name}">
-        
+    <div>
+        <h2 id="character-name">${character.name}</h2>
+        <img id="character-image" src="${character.image}" alt="${character.name}">
+    </div> 
+    <div>   
         <p><strong>Status: </strong>${character.status}</p>
         <p><strong>Species: </strong>${character.species}</p>
         <p><strong>Gender: </strong>${character.gender}</p>
         <p><strong>Origin: </strong>${character.origin.name}</p>
         <p><strong>Location: </strong>${character.location.name}</p>
         <p><strong>Episodes: </strong>${character.episode.length}</p>
+    </div>
     `;
 
 

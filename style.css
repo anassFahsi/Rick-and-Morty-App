@@ -1,8 +1,10 @@
-/*prompt1:make the header display the title in the center*/
+/*prompt1:make the header display the title in the center and background color */
 header {
     text-align: center;
 }
-
+body {
+    background-color:#ccc
+}
 
 /*prompt2:make the characters-container display the characters in a grid*/
 .characters-container {
@@ -13,7 +15,8 @@ header {
 
 /*prompt3:make the character-card display the image and name and status and species in a card*/
 .character-card {
-    border: 1px solid #ccc;
+    background-color: #fff;
+    border: 1px solid #4CAF50;
     padding: 10px;
     text-align: center;
 }
@@ -80,9 +83,27 @@ header h1 {
     border-radius: 50%;
 }
 #character-Details {
+    background-color: #fff;
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
-    flex-direction: column;
+    gap:50px;
+    justify-content: center;
     align-items: center;
+    flex-direction: row;
+    border: 1px solid #4CAF50;
+    padding: 10px;
+   
+}
+#character-name {
+    text-align: center;
+}
+#character-image {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
 }
 
 /*prompt 12: centre the button*/
