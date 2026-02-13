@@ -32,7 +32,7 @@ header {
     justify-content: center;
     gap: 20px;
 }
-/*make the button next as long as the button prev and make them boarder radius*/
+/*prompt 6:make the button next as long as the button prev and make them boarder radius*/
 #next {
     width: 100px;
     border-radius: 10px;
@@ -41,7 +41,7 @@ header {
     width: 100px;
     border-radius: 10px;
 }
-/*make the buttons change background color when hovered*/
+/*prompt 7:make the buttons change background color when hovered*/
 #next:hover {
     background-color: #4CAF50;
     cursor:pointer;
@@ -51,16 +51,57 @@ header {
     background-color: #4CAF50;
     cursor: pointer;
 }
-/*make the buttons change background color when clicked*/
+/*prompt 8:make the buttons change background color when clicked*/
 #next:active {
     background-color: #4CAF50;
 }
 #prev:active {
     background-color: #4CAF50;
 }
-/*make the character card change background color and size when hovered*/
+/*prompt 9:make the character card change background color when hovered*/
 
 .character-card:hover {
     background-color: #4CAF50;
     cursor:pointer;
 }
+/*prompt10:centre the header title and make it bigger and bold*/
+header h1 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    color: #4CAF50;
+    margin-bottom: 20px;
+   
+}
+/*prompt 11:make the character card image bigger and rounder*/
+.character-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+#character-Details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*prompt 12: centre the button*/
+#back {
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: flex;
+ 
+}
+#back:hover {
+    background-color: #4CAF50;
+}
+#back:active {
+    background-color: #4CAF50;
+}
+
